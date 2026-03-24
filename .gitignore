@@ -1,0 +1,26 @@
+# --- KHOÁ BẢO MẬT (QUAN TRỌNG NHẤT) ---
+# Không bao giờ up các file chứa API Key của Apify hoặc Gemini
+.env
+config.json
+secret.txt
+credentials.json
+
+# --- PYTHON & JUPYTER NOTEBOOK ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+.virtualenv/
+venv/
+env/
+
+# --- DỮ LIỆU (DATA) ---
+# Nếu file dữ liệu quá nặng hoặc chứa thông tin nhạy cảm, bạn nên bỏ qua
+# Hiện tại tui thấy bạn xuất ra file: Dataset_Candidate.csv
+# Nếu muốn up lên để làm Portfolio thì có thể xóa dòng dưới đây
+# *.csv
+# *.xlsx
+
+# --- HỆ THỐNG ---
+.DS_Store
+Thumbs.db
